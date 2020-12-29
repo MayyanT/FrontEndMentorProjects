@@ -1,0 +1,237 @@
+/*DESKTOP SCREEN*/
+@media (max-width: 1280px){
+    .container{
+        max-width: 900px;
+    }
+
+    .desktop-bg{
+        top: -32.5rem;
+        right: -50rem;
+    }
+    
+    .mockup{
+        top: -6rem;
+        right: -7rem;
+        width: 60%;
+    }
+}
+
+/*TABLET*/
+@media (max-width: 1024px){
+    .container{
+        max-width: 700px;
+    }
+
+    .hero-text{
+        max-width: 300px;
+    }
+
+    .desktop-bg{
+        top: -33rem;
+        right: -50rem;
+    }
+    
+    .mockup{
+        top: -5rem;
+        right: -7rem;
+    }
+
+    .features, .blog-posts{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features p{
+        width: 320px;
+    }
+
+    .blog-posts > div{
+        margin: 1rem 0;
+    }
+}
+
+/*MINI TABLET*/
+@media (max-width: 600px){
+    header {
+        z-index: 3;
+    }
+
+    header .container{
+        max-width: 550px;
+    }
+
+    /*HAMBURGER*/
+    .ham-open, .ham-close{
+        cursor: pointer;
+    }
+
+    .ham-open{
+        display: inline;
+    }
+    
+    .ham-open.active{
+        display: none;
+     }
+     
+   .ham-close{
+         display: none;
+     }
+     
+   .ham-close.active{
+        display: inline;
+     }
+
+    .hamburger-nav a{
+        font-family: 'Public Sans', sans-serif;
+        font-weight: 700;
+        color: black;
+        padding: 1rem 0;
+    }
+
+    .hamburger-nav.active{
+        background-color: white;
+        width: 90%;
+        margin: 5rem 1.75rem;
+        padding: 2rem 0;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+
+        -webkit-box-shadow: 0px 3px 198px 120px rgba(48,65,97,0.74);
+        -moz-box-shadow: 0px 3px 198px 120px rgba(48,65,97,0.74);
+        box-shadow: 0px 3px 198px 120px rgba(48,65,97,0.74);
+        z-index: 2;
+        visibility: visible;
+    }
+    
+    .desktop-bg{
+        display: none;
+    }
+
+    .mobile-bg{
+        display: block;
+        position: absolute;
+        width: 600px;
+        top: -8rem;
+        right: -18.5rem;
+        z-index: 1;
+    }
+
+    .mockup{
+        top: -3.5rem;
+        right: 3.5rem;
+        width: 80%;
+    }
+
+    nav ul, nav button{
+        display: none;
+    }
+
+    .section-one .container{
+        min-height: 850px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero-text{
+        margin-bottom: 3rem;
+        max-width: 430px;
+        text-align: center;
+    }
+    
+
+    .section-two .container,
+    .why-text,
+    footer .container{
+        max-width: 430px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .features, .blog-posts{
+        grid-template-columns: 1fr;
+    }
+
+    .features p{
+        width: 100%;
+    }
+
+    .section-three .container{
+        max-width: 350px;
+    }
+    .blog-posts > div{
+        width: 100%;
+    }
+
+    footer{
+        height: 500px;
+    }
+
+    footer .container{
+        flex-direction: column;
+        padding: 3rem 0;
+    }
+    
+    .socials{
+        padding: 20px 0;
+    }
+
+    .socials i{
+        font-size: 2rem;
+        padding: 0 10px;
+    }
+
+    .copyright{
+        align-items: center;
+        margin-top: 1rem;
+    }
+    
+    .copyright p{
+        padding-top: 1rem;
+    }
+    
+    .attribution{
+        text-align: center;
+    } 
+}
+
+/*MOBILE*/
+@media (max-width: 375px){
+    header .container{
+        max-width: 320px;
+    }
+
+    .hamburger-nav.active{
+        width: 84%;
+    }
+    
+    .mobile-bg{
+        width: 500px;
+        right: -12rem;
+    }
+
+    .mockup{
+        top: -4rem;
+        right: 1.25rem;
+        width: 90%;
+    }
+
+    .section-one .container{
+        min-height: 750px;
+    }
+
+    .hero-text{
+        margin-bottom: 3rem;
+        max-width: 280px;
+    }
+    
+    .section-two .container,
+    .why-text,
+    footer .container{
+        max-width: 270px;
+    }
+}
