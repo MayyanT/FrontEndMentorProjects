@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: hsl(234, 12%, 34%);
+    background-color: hsl(0, 0%, 98%);
+    overflow: hidden;
+}
+
+p{
+    color: hsl(229, 6%, 66%);
+}
+
+h2{
+    font-weight: 200;
+}
+
+span{
+    font-weight: 600;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-text{
+    width: 500px;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.top-text p{
+    margin-top: 1em;
+}
+
+.bottom-cards{
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    background: #fff;
+    width: 360px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px hsl(224, 19%, 85%);
+    position: relative;
+}
+
+.card h4{
+    margin: 1.5em;
+}
+
+.card p{
+    margin: 1em 1.5em;
+}
+
+.card img{
+    position: absolute;
+    right: 2em;
+    bottom: 2em;
+}
+
+.supervisor{ 
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.team{
+    margin-top: 1.5em;
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.karma{
+    margin-top: 2em;
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.calc{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+footer{
+    margin-top: 4em;
+    text-align: center;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 1258px){
+  .bottom-cards{
+        width: 1150px;
+    }
+}
+
+@media (max-width: 1024px){
+    body{
+        overflow-y: scroll;
+    }
+
+    .bottom-cards{
+        flex-direction: column;
+    }
+
+    .team, .karma{
+        margin: 1.5em 0;
+    }
+}
+
+@media (max-width: 375px){
+
+    .card, .top-text, footer{
+        width: 320px;
+    }
+
+    .supervisor{
+        margin-top: 1.5em;
+    }
+
+    .team, .karma{
+        margin: 2.5em 0;
+    }
+}
+
+@media (max-width: 320px){
+
+    .card, .top-text, footer{
+        width: 280px;
+    }
+
+    .card{
+        height: 210px;
+    }
+}
