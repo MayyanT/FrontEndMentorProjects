@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/4cc7ccbe37.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaQueries.css">
+
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  
+</head>
+<body>
+  <div class="upper-bg"></div>
+  
+  <div class="container">
+
+    <div class="dashboard-header">
+      <div>
+        <h1>Social Media Dashboard</h1>
+        <p class="total-followers">Total Followers: 23,004</p>
+      </div>
+
+      <div class="toggle-btn">
+        <p class="light">Light Mode</p>
+        <p class="dark">Dark Mode</p>
+        
+        <div>
+          <input type="checkbox" class="checkbox" id="checkbox">
+          <label for="checkbox" class="label">
+            <div class="ball"></div>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="dashboard-cards">
+      <div class="card facebook">
+        <div class="card-platform">
+          <img src="images/icon-facebook.svg" alt="icon-facebook">
+          <p>@nathanf</p>
+        </div>
+        <h2>1987</h2>
+        <p class="followers">Followers</p>
+        <small class="up"><i class="fas fa-caret-up"></i> 12 Today</small>
+      </div>
+
+      <div class="card twitter">
+        <div class="card-platform">
+          <img src="images/icon-twitter.svg" alt="icon-twitter">
+          <p>@nathanf</p>
+        </div>
+        <h2>1044</h2>
+        <p class="followers">Followers</p>
+        <small class="up"><i class="fas fa-caret-up"></i> 99 Today</small>
+      </div>
+
+      <div class="card instagram">
+        <div class="inside-card">
+        <div class="card-platform">
+          <img src="images/icon-instagram.svg" alt="icon-instagram">
+          <p>@realnathanf</p>
+        </div>
+        <h2>11k</h2>
+        <p class="followers">Followers</p>
+        <small class="up"><i class="fas fa-caret-up"></i> 1099 Today</small>
+      </div>
+      </div>
+
+      <div class="card youtube">
+        <div class="card-platform">
+          <img src="images/icon-youtube.svg" alt="icon-youtube">
+          <p>Nathan F.</p>
+        </div>
+        <h2>8239</h2>
+        <p class="followers">Subscribers</p>
+        <small class="down"><i class="fas fa-caret-down"></i> 144 Today</small>
+      </div>
+    </div>
+
+    <div class="overview-wrapper">
+      <h2>Overview - Today</h2>
+
+      <div class="overview-cards">
+        <div class="mini-card">
+          <div class="mini-content">
+            <p>Page Views</p>
+            <img src="images/icon-facebook.svg" alt="icon-facebook">
+          </div>
+          <div class="mini-content">
+            <h3>87</h3>
+            <small class="up"><i class="fas fa-caret-up"></i> 3%</small>
+          </div>
+        </div>
+
+        <div class="mini-card">
+          <div class="mini-content">
+            <p>Likes</p>
+            <img src="images/icon-facebook.svg" alt="icon-facebook">
+          </div>
+          <div class="mini-content">
+            <h3>52</h3>
+            <small class="down"><i class="fas fa-caret-down"></i> 2%</small>
+          </div>
+        </div>
+        
+        <div class="mini-card">
+          <div class="mini-content">
+            <p>Likes</p>
+            <img src="images/icon-instagram.svg" alt="icon-instagram">
+          </div>
+          <div class="mini-content">
+            <h3>5462</h3>
+            <small class="up"><i class="fas fa-caret-up"></i> 2257%</small>
+          </div>
+        </div>
+
+        <div class="mini-card">
+          <div class="mini-content">
+            <p>Profile Views</p>
+            <img src="images/icon-instagram.svg" alt="icon-instagram">
+          </div>
+          <div class="mini-content">
+            <h3>52k</h3>
+            <small class="up"><i class="fas fa-caret-up"></i> 1375%</small>
+          </div>
+        </div>
+
+        <div class="mini-card">
+          <div class="mini-content">
+            <p>Retweets</p>
+            <img src="images/icon-twitter.svg" alt="icon-twitter">
+          </div>
+          <div class="mini-content">
+            <h3>117</h3>
+            <small class="up"><i class="fas fa-caret-up"></i> 303%</small>
+          </div>
+        </div>
+
+        <div class="mini-card">
+          <div class="mini-content">
+            <p>Likes</p>
+            <img src="images/icon-twitter.svg" alt="icon-twitter">
+          </div>
+          <div class="mini-content">
+            <h3>507</h3>
+            <small class="up"><i class="fas fa-caret-up"></i> 553%</small>
+          </div>
+        </div>
+
+        <div class="mini-card">
+          <div class="mini-content">
+            <p>Likes</p>
+            <img src="images/icon-youtube.svg" alt="icon-youtube">
+          </div>
+          <div class="mini-content">
+            <h3>107</h3>
+            <small class="down"><i class="fas fa-caret-down"></i> 19%</small>
+          </div>
+        </div>
+
+        <div class="mini-card">
+          <div class="mini-content">
+            <p>Total Views</p>
+            <img src="images/icon-youtube.svg" alt="icon-youtube">
+          </div>
+          <div class="mini-content">
+            <h3>1407</h3>
+            <small class="down"><i class="fas fa-caret-down"></i>12%</small>
+          </div>
+        </div>
+      </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/MayyanT" target="_blank">Mayyan To</a>.
+    </div>
+    <!--CONTAINER-->
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
