@@ -1,0 +1,248 @@
+@media (max-width: 1100px){
+    .container{
+        max-width: 900px;
+    }
+
+    .section-2 .container img{
+        width: 70%;
+    }
+
+    h2{
+        font-size: 2.5em;
+    }
+    
+    .section-2-text-box{
+        width: 390px;
+        padding: 3em 0 0 3em;
+        bottom: -2em;
+        right: -1em;
+    }
+}
+
+/*TABLET*/
+@media (max-width: 768px){
+    .container{
+        max-width: 650px;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    .section-1{
+        background-position: -15em 0; 
+    }
+
+    .hero-text-wrapper{
+        width: 650px;
+    }
+    
+    .hero-text{
+        font-size: 3.5em;
+        width: 550px;
+    }
+
+    .section-2{
+        margin-bottom: 18.5em;
+    }
+
+    .section-2 .container img{
+        width: 100%;
+    }
+
+    .section-2-text-box{
+        text-align: center;
+        width: 650px;
+        padding: 2em;
+        bottom: -16em;
+        left: 0;
+        right: 0;
+    }
+
+    .creation-options{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 2em;
+    }
+    
+    .option-card h3, .option-card .grid{
+        font-size: 1.5em;
+        width: 400px;
+    }
+}
+
+/*MINI TABLET*/
+@media (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .container{
+        max-width: 500px;
+    }
+
+    .section-1{
+        background-image: url("images/mobile/image-hero.jpg");
+        background-size: 100%;
+        background-position: 0;
+        margin-bottom: 4em;
+    }
+
+    
+    header{
+        display: none;
+    }
+
+    .mobile-head{
+        padding-top: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #hamburger, #close{
+        cursor: pointer;
+    }
+
+    #hamburger{
+        display: inline;
+    }
+
+    #hamburger.active{
+        display: none;
+    }
+
+    #close{
+        display: none;
+    }
+
+    #close.active{
+        display: inline;
+    }
+
+    .nav-mobile.active{
+        display: block;
+    }
+
+    .menu-bg.active{
+        display: block;
+    }
+
+    .hero-text-wrapper{
+        width: 100%;
+    }
+    
+    .section-2{
+        margin-bottom: 16em;
+    }
+
+    .section-2-text-box{
+        width: 100%;
+        padding: 1.2em;
+    }
+
+    .creations-subheader h2{
+        margin: 2em auto 0;
+    }
+
+    .desktop-img{
+        display: none;
+    }
+
+    .mobile-img{
+        display: inline;
+    }
+
+    .creation-options{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2em;
+    }
+
+    .desktop-btn{
+        display: none;
+    }
+
+    .mobile-btn{
+        display: block;
+        margin: 3em auto -5em;
+        
+    }
+
+    .option-card h3{
+        font-size: 1.2em;
+    }
+
+    footer{
+        height: 400px;
+    }
+
+    footer .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1em;
+    }
+
+    .left, .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 1.5em;
+    }
+    
+    .left ul li, .attribution{
+        display: block;
+        width: 100%;
+        padding: 0.5em;
+        text-align: center;
+    }
+    
+    .right{
+        align-items: center;
+        margin-top: -1.5em;
+    }
+    
+    .social-icons i{
+        font-size: 1.5em;
+        margin: 1em;
+        cursor: pointer;
+    }
+}
+
+/*MOBILE*/
+@media (max-width: 420px){
+    .container{
+        max-width: 280px;
+    }
+
+    .section-1, footer{
+        height: 500px;
+    }
+
+    .hero-text{
+        font-size: 2em;
+        width: 250px;
+    }
+
+    .section-2{
+        margin-bottom: 25em;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+    
+    .section-2-text-box{
+        width: 100%;
+        bottom: -26em;
+    }
+
+    .left{
+        margin-top: 4em;
+    }
+    .social-icons{
+        font-size: 0.9em;
+    }
+}
