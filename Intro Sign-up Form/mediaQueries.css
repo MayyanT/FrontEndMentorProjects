@@ -1,0 +1,128 @@
+
+@media (max-width: 1024px){
+    body{
+        background-size: 240%;
+        background-position: 5% 0%;
+        overflow: auto;
+    }
+
+    .container{
+        flex-direction: column;
+        max-width: 900px;
+    }
+
+    .left{
+        width: 600px;
+        text-align: center;
+        padding: 10em 0 4em;
+    }
+
+    h1{
+        font-size:3.5em;
+    }
+
+    footer{
+        bottom: -10rem;
+        left: 0.75rem;
+    }
+    
+}
+
+
+
+
+@media (max-width: 600px){
+    body{
+        background-size: 300%;
+        background-position: 0 0;
+        
+    }
+
+    .left{
+        width: 500px;
+        padding-top: 18em;
+    }
+
+    h1{
+        font-size:2.5em;
+    }
+
+    .right{
+        padding-bottom:4em;
+    }
+
+    .offer{
+        width: 480px;
+    }
+    
+    .form-control{
+        width: 430px;
+    }
+
+    footer{
+        bottom: -12rem;
+        left: 5rem;
+    }
+    
+}
+
+@media (max-width: 414px){
+    body{
+        background-image: url(images/bg-intro-mobile.png);
+        background-size: 140%;
+        background-position: 50% 0;
+    }
+
+    .left, .offer{
+        width: 300px;
+    }
+    
+    .left{
+        padding-top: 22em;
+    }
+
+    .right{
+        padding-bottom: -5em;
+    }
+
+    .form-control{
+        width: 270px;
+    }
+
+    input{
+        padding: 12px 22px;
+    }
+
+    footer{
+        bottom: -24rem;
+        left: 2rem;
+        padding: 3rem 0;
+    }
+
+    footer .attribution{
+        width: 300px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 320px){
+    .left, .offer, footer .attribution{
+        width: 280px;
+    }
+
+    .left{
+        padding-top: 32em;
+    }
+
+    .form-control{
+        width: 250px;
+    }
+
+    footer{
+        bottom: -33.5rem;
+        left: 0.75rem;
+    }
+
+    
+}

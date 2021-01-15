@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.left{
+    color: #fff;
+    padding-right: 6em; 
+}
+
+h1{
+    line-height: 1.2em;
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+span{
+    font-weight: 600;
+}
+
+.offer, form{
+    border-radius: 5px;
+    box-shadow: 0 6px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.offer{
+    width: 550px;
+    padding: 15px 0;
+    background-color: hsl(248, 32%, 49%);
+    color: #fff;
+    text-align: center;
+}
+
+form{
+    margin: 1.5em 0;
+    padding: 1em 0 1.5em;
+    background-color: #fff;
+}
+
+.form-control{
+    width: 480px;
+    margin: 0 auto;
+}
+
+.form-control p{
+    display: none;
+}
+
+input{
+    font-weight: 600;
+    font-size: 1em;
+    padding: 15px 25px;
+    margin: 1em 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 205, 205);
+}
+
+input:focus{
+    outline: none;
+    border: 1.5px solid hsl(246, 25%, 77%);
+}
+
+button{
+    margin: 0.5rem 0;
+    padding: 15px 35px;
+    width: 100%;
+    border: 1px solid hsl(154, 60%, 33%);
+    border-bottom-width: 4px;
+    border-radius: 5px;
+    background-color:  hsl(154, 60%, 42%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    border-bottom-width: 1px;
+}
+
+.form-control .small{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    color: hsl(246, 25%, 77%);
+}
+
+small span{
+    color: hsl(0, 100%, 74%);
+    cursor: pointer;
+}
+
+footer{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+/*ERRORS*/
+.error-message {
+    color:  hsl(0, 100%, 74%);
+    font-size: 0.75em;
+    margin-top: -0.5em;
+    text-align: right;
+}
+
+.form-control.error input {
+    border: 2px solid  hsl(0, 100%, 74%);
+    background-image: url(images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 26.5em 0.75em;
+}
+
+.form-control.error p{
+    display: block;
+} 
+
+/*SUCCESS*/
+.form-control.success input {
+    border: 2px solid  hsl(154, 59%, 51%);
+}
+
