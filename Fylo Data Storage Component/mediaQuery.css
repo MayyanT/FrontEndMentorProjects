@@ -1,0 +1,98 @@
+@media(max-width: 414px){
+    body{
+        background: hsl(229, 57%, 11%) url(images/bg-mobile.png) no-repeat 50% 100%;
+        background-size: 100%;
+        overflow-x: hidden;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .fylo-options{
+        width: 350px;
+        height: 200px;
+        margin-right: 0;
+        margin-top: 1em;
+    }
+
+    .storage-wrapper{
+        margin-top: 2em;
+    }
+    
+    .storage-box{
+        width: 350px;
+        height: 230px;
+        padding: 0 2em;
+    }
+
+    .GB-left-box{
+        width: 180px;
+        height: 70px;
+        border-radius: 10px;
+        top: 35em;
+        right: 7.2em;
+    }
+    
+    .GB-left-box::after{
+        display: none;
+    }
+
+    .attribution{
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px){
+    body{
+        background: hsl(229, 57%, 11%) url(images/bg-mobile.png) no-repeat 50% 100%;
+    }
+
+    .fylo-options{
+        width: 330px;
+    }
+    
+    .storage-box{
+        width: 330px;
+    }
+
+    .GB-left-box{
+        top: 33em;
+        right: 6em;
+    }
+}
+
+@media (max-width: 320px){
+    body{
+        background: hsl(229, 57%, 11%) url(images/bg-mobile.png) no-repeat 50% 100%;
+    }
+
+    .fylo-options{
+        width: 280px;
+    }
+    
+    .storage-box{
+        width: 280px;
+    }
+
+    .GB-left-box{
+        top: 29.5em;
+        right: 4.3em;
+    }
+}
+
+@media (height: 812px){
+    body{
+        background-size: 150%;
+    }
+
+    .GB-left-box{
+        width: 180px;
+        height: 70px;
+        border-radius: 10px;
+        top: 38em;
+        right: 6em;
+    }
+}
+
+/*Sorry! I didn't do media queries for tablet sizes!*/
