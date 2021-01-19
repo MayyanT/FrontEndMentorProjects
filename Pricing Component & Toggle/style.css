@@ -111,6 +111,7 @@ h2{
     color: hsl(233, 13%, 49%);
     background-color: #fff;
     border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(74, 68, 163, 0.2);
     justify-content: center;
 }
 
