@@ -1,0 +1,226 @@
+@media (max-width: 1024px){
+    .container{
+        max-width: 900px;
+        height: 75vh;
+        margin: 4rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .top-content{
+        height: 28vh;
+        flex-direction: column;
+        justify-content: flex-start;
+       
+        background-image: url(/images/bg-pattern-top-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: 0% 0%;
+        background-size: 50%;
+    }
+
+    .top-left{
+        width: 100%;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-left p{
+        width: 60%;
+        text-align: center;
+    }
+
+    .top-right{
+        width: 100%;
+        align-items: center;
+    }
+
+    .review{
+        width: 60%;
+        justify-content: center;
+    }
+
+    .second-review,
+    .third-review{
+        margin-left: 0;
+    }
+
+    .bottom-content{
+        height: 50vh;
+        padding-bottom: 4rem;
+        flex-direction: column;
+        align-items: center;
+        
+        background-image: url(/images/bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: 0% 0%;
+        background-size: 100%;
+    }
+
+    .colton,
+    .irene,
+    .anne{
+        width: 70%;
+    }
+
+    .anne{
+        margin: 1.5rem;
+    }
+}
+
+/*******************************************/
+
+@media (max-width: 768px){
+    .container{
+        max-width: 600px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .top-content{
+        height: auto;
+        margin-bottom: 4rem;
+        background-image: url(/images/bg-pattern-top-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: 0% 0%;
+        background-size: 60%;
+    }
+
+    .top-left{
+        width: 100%;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        width: 100%;
+    }
+
+    .top-left p{
+        width: 80%;
+    }
+
+    .top-right{
+        width: 100%;
+    }
+      
+    .bottom-content{
+        height: auto;
+    }
+
+    .colton,
+    .irene,
+    .anne{
+        width: 80%;
+        height: 190px;
+    }
+
+    .attribution{
+        margin-bottom: 6rem;
+        line-height: 1.5
+    }
+}
+
+/*******************************************/
+@media (max-width: 414px){
+    .container{
+        max-width: 380px;
+        margin-top: 0rem;
+    }
+
+    .top-content{
+        padding-top: 6rem;
+    }
+
+    .review{
+        width: 90%;
+    }
+
+    i{
+        font-size: 0.7rem;
+    }
+
+    .colton, .irene, .anne{
+        height: 225px;
+    }
+
+    .attribution{
+        width: 80%;
+        margin: 6rem auto;
+    }
+}
+
+/*******************************************/
+
+@media (max-width: 375px){
+    .container{
+        max-width: 360px;
+        margin-top: 0rem;
+    }
+
+    .top-content{
+        padding-top: 6rem;
+    }
+
+    .top-left{
+        width: 350px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .review{
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .stars{
+        padding-bottom: 0.5rem;
+    }
+
+    .colton, .irene, .anne{
+        height: 235px;
+    }
+}
+
+/*******************************************/
+
+@media (max-width: 320px){
+    .container{
+        max-width: 280px;
+    }
+
+    .top-left{
+        width: 275px;
+    }
+
+    h1{
+        font-size: 1.4rem;
+    }
+
+    .review{
+        text-align: center;
+    }
+
+    .colton, .irene, .anne{
+        height: 275px;
+    }
+
+}
